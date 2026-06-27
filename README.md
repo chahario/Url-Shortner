@@ -157,19 +157,6 @@ A few of the decisions explained in detail in [ARCHITECTURE.md](./ARCHITECTURE.m
 
 ---
 
-## Project status & roadmap
-
-This is a learning-focused build of the **API + billing engine**. Deliberately out of scope (and noted as separate concerns): public sign-up / payments integration, and a web dashboard — provisioning is handled via seeded/admin clients.
-
-Planned hardening before any real deployment:
-- [ ] Flyway migrations (replace `ddl-auto`)
-- [ ] Externalized config + secrets via environment variables
-- [ ] Dockerfile + health checks
-- [ ] Test suite (unit + slice + idempotency integration test)
-- [ ] Deploy on managed services (RDS / ElastiCache / MSK)
-
----
-
 ## License
 
 MIT
